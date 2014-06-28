@@ -162,8 +162,6 @@ snippet itd description \item
 	\item[${1:description}] ${0:item}
 snippet figure reference to a figure
 	${1:Figure}~\ref{${2:fig:}}
-snippet equation reference to a equation
-	${1:Equation}~\ref{${2:eq:}}
 snippet table reference to a table
 	${1:Table}~\ref{${2:tab:}}
 snippet listing reference to a listing
@@ -192,15 +190,15 @@ snippet fcite \footcite[]{}
 	\footcite[${1}]{${2}}${0}
 #Formating text: italic, bold, underline, small capital, emphase ..
 snippet it italic text
-	\textit{${0:text}}${2}
+	\textit{${0:text}}
 snippet bf bold face text
 	\textbf{${0:text}}${2}
 snippet under underline text
-	\underline{${0:text}}${2}
+	\underline{${0:text}}
 snippet emp emphasize text
-	\emph{${0:text}}${2}
+	\emph{${0:text}}
 snippet sc small caps text
-	\textsc{${0:text}}${2}
+	\textsc{${0:text}}
 #Choosing font
 snippet sf sans serife text
 	\textsf{${0:text}}
